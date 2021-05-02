@@ -5,9 +5,172 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: chartreuse;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.navbar{
+  background-color:rgb(58, 51, 119);
+}
+
+.nav_bg{
+  background-color:rgb(58, 51, 119);
+}
+
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color: #ffffff !important;
+}
+
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid #ffffff;
+}
+
+.navbar a:hover{
+  color:blue !important;
+}
+
+@media (max-width: 991px){
+  .navbar-brand{
+    font-size: 1.5rem !important;
+  }
+
+  .menu_active{
+    font-weight:bold;
+    border-bottom: none;
+  }
+}
+
+#header {
+  width: 100%;
+  background-color:rgb(58, 51, 119);
+  height:30em;
+}
+
+#header h1{
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: #000000;
+}
+
+#header .brand-name{
+  color:#d3564b
+}
+
+#header h2{
+  color:#e28e86;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+#header .btn-get-started{
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color:rgb(255, 255, 255);
+  border: 2px solid #cdcaff;
+  text-decoration: none;
+}
+
+#header .btn-get-started:hover{
+  background:rgb(22, 18, 53);
+  color:rgb(255, 255, 255);
+}
+
+.header-img{
+  text-align: right;
+}
+
+#header .animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+
+#workshop{
+  width: 100%;
+  background-color:rgb(58, 51, 119);
+}
+
+#workshop .card{
+  border-radius: 3%;
+  background-color: #110c16;
+  opacity: 90%;
+  /*width: 80%;*/
+  align-items: center;
+}
+
+#workshop .card:hover{
+  opacity: 100%;
+}
+
+#workshop .card-title{
+  font-size: x-large;
+  color: aliceblue;
+  text-align: center;
+}
+
+#workshop .card-text{
+  font-size: medium;
+  color:azure;
+  text-align: center;
+}
+
+#workshop .heading{
+  font-size:xxx-large;
+  color:azure;
+  text-align: center;
+}
+
+#workshop .btn-primary{
+  background:rgb(22, 18, 53);
+  color:rgb(255, 255, 255);
+  width: 100%;
+}
+
+#workshop .btn-primary:hover{
+  color:rgb(255, 255, 255);
+  background-color: rgb(73, 54, 133);
+  width: 100%;
+}
+
+
+
+
+
+#workshop .card-img-top{
+  border-radius: 3%;
 }
