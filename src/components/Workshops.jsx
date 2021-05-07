@@ -19,7 +19,7 @@ const Workshops = () => {
                         <div className="col-md-10 mx-auto">
                             <div className='row gy-4'>
                                 <div className="col-md-3 col-10 mx-auto">
-                                    {/* {Workshops.map((el) => ( 
+                                     {Workshops.map((el) => ( 
                                          <div className="card" >
                                             <img src={thumb} className="card-img-top" alt="..." />
                                             <div className="card-body">
@@ -27,39 +27,8 @@ const Workshops = () => {
                                                 <p className="card-text">{el.tagline}</p>
                                                 <NavLink to="#" className="btn btn-primary">{el.image}</NavLink>
                                             </div>
-                                        </div>))} */}
-                                        <div className="card" >
-                                            <img src={thumb} className="card-img-top" alt="..." />
-                                            <div className="card-body">
-                                                <h5 className="card-title">Title</h5>
-                                                <p className="card-text">Tagline</p>
-                                                <NavLink to="#" className="btn btn-primary">Link</NavLink>
-                                            </div>
-                                        </div>
-                                        <div className="card" >
-                                            <img src={thumb} className="card-img-top" alt="..." />
-                                            <div className="card-body">
-                                                <h5 className="card-title">Title</h5>
-                                                <p className="card-text">Tagline</p>
-                                                <NavLink to="#" className="btn btn-primary">Link</NavLink>
-                                            </div>
-                                        </div>
-                                        <div className="card" >
-                                            <img src={thumb} className="card-img-top" alt="..." />
-                                            <div className="card-body">
-                                                <h5 className="card-title">Title</h5>
-                                                <p className="card-text">Tagline</p>
-                                                <NavLink to="#" className="btn btn-primary">Link</NavLink>
-                                            </div>
-                                        </div>
-                                        <div className="card" >
-                                            <img src={thumb} className="card-img-top" alt="..." />
-                                            <div className="card-body">
-                                                <h5 className="card-title">Title</h5>
-                                                <p className="card-text">Tagline</p>
-                                                <NavLink to="#" className="btn btn-primary">Link</NavLink>
-                                            </div>
-                                        </div>
+                                        </div>))} 
+                                        
 
                                 </div>
                             </div>
