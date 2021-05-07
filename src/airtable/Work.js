@@ -6,7 +6,7 @@ const AIRTABLE_URI = `https://api.airtable.com/v0/${process.env.REACT_APP_PARTNE
 const useWPs = () => {
   const [repos, setRepos] = useState([]);
   const token = process.env.REACT_APP_AIRTABLE_API_KEY;
-
+  
   const getWPs = async () => {
     let res = await Axios({
       method: "GET",
